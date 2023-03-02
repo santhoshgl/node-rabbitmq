@@ -1,0 +1,26 @@
+### Send messages
+POST http://localhost:3001/sendlog
+Content-Type: application/json
+
+{
+  "logType": "Info",
+  "message": "Info message"
+}
+
+### Send messages
+POST http://localhost:3001/sendlog
+Content-Type: application/json
+
+{
+  "logType": "Error",
+  "message": "Error message"
+}
+
+### Send messages
+POST http://localhost:3001/sendlog
+Content-Type: application/json
+
+{
+  "logType": "Warning",
+  "message": "warning message"
+}
